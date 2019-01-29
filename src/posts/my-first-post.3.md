@@ -2,12 +2,12 @@
 view: post
 layout: post                          # Only in unique we use the "layout: post"
 lang: zh                              # Lang is required
-author: 
-title: My First post
+author: seven
+title: My First post3
 description: 
 excerpt: 
-cover: false
-coverAlt: /home.jpg
+cover: false                          # Leave false if the post does not have cover image, if there is set to true
+coverAlt: 
 demo: 
 categories:
   - vuejs
@@ -17,12 +17,11 @@ tags:
   - static site
 created_at: 2018-08-22 09:00
 updated_at: 2018-08-22 09:00
-meta:
-                                     # If you have cover image
+meta:                                 # If you have cover image
   - property: og:image
-    content: /autores/my.jpeg
+    content: /images/posts/my-first-post.png  
   - name: twitter:image
-    content: /autores/my.jpeg
+    content: /images/posts/my-first-post.png 
 ---
 
 __Advertisement :)__
@@ -35,7 +34,7 @@ __Advertisement :)__
 You will like those projects!
 
 ---
-1231312
+
 # h1 Heading 8-)
 ## h2 Heading
 ### h3 Heading

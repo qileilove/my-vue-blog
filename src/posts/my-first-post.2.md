@@ -1,12 +1,12 @@
 ---
 view: post
-layout: post                    # Only in unique we use the "layout: post"
-lang: es                        # Lang is required
-author: ktquez
-title: Mi primer post
+layout: post                          # Only in unique we use the "layout: post"
+lang: zh                              # Lang is required
+author: seven
+title: My First post2
 description: 
 excerpt: 
-cover: false                    # Leave false if the post does not have cover image, if there is set to true
+cover: false                          # Leave false if the post does not have cover image, if there is set to true
 coverAlt: 
 demo: 
 categories:
@@ -14,14 +14,14 @@ categories:
 tags: 
   - vuejs
   - vuepress
-  - sitio estático
-created_at: 2018-08-22 11:00
-updated_at: 2018-08-22 11:00
+  - static site
+created_at: 2018-08-22 09:00
+updated_at: 2018-08-22 09:00
 meta:                                 # If you have cover image
   - property: og:image
-    content: /images/es/posts/my-first-post.png         # For locale /es/, add  "/images/es/posts/"
+    content: /images/posts/my-first-post.png  
   - name: twitter:image
-    content: /images/es/posts/my-first-post.png
+    content: /images/posts/my-first-post.png 
 ---
 
 __Advertisement :)__

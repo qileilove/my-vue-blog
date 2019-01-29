@@ -1,6 +1,6 @@
 ---
 view: posts
-title: All posts of
+title:  所有的文章
 description: 
 excerpt: 
 meta:

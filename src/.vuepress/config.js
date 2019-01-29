@@ -15,13 +15,7 @@ module.exports = {
   serviceWorker: true,
   locales: {
     '/': {
-      lang: 'en'
-    },
-    '/pt/': {
-      lang: 'pt-br'
-    },
-    '/es/': {
-      lang: 'es'
+      lang: 'zh'
     }
   },
   configureWebpack () {

@@ -1,19 +1,20 @@
 // See more in https://github.com/ktquez/vuepress-theme-ktquez#themeconfig
-const en = require('./locales/en/config')
-const pt = require('./locales/pt/config')
-const es = require('./locales/es/config')
+const zh = require('./locales/zh/config')
 
 module.exports = {
   locales: {
-    '/': en,
-    '/pt/': pt,
-    '/es/': es
+    '/': zh
   },
   serviceWorker: {
     updatePopup: { 
       message: "New content 🎉🎉", 
       buttonText: "Update" 
     }
+  },
+  responsive: {
+    active: true, // Turn on responsive images on the cover of the post
+    ext: 'png',
+    breakpoints: [320, 427, 524, 680] // Breakpoints used for picture media tag
   },
   disqus: 'ktquez',
   url: `https://MY_DOMAIN.COM`,

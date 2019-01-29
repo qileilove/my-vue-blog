@@ -1,13 +1,12 @@
 const ads = require('./ads')
+const translation = require('./translation')
 
 module.exports = {
   languages: {
-    label: 'English',
-    shortname: 'EN'
+    label: '中文',
+    shortname: 'ZH'
   },
-  translation: {
-    news_title: 'Receive our articles, videos and more directly in your inbox and stay up to date.',
-  },
+  translation,
   ads,
   logo: {
     name: 'ktquez-play-logo',
@@ -22,46 +21,41 @@ module.exports = {
     provider: 'mailchimp',
     action: ''
   },
-  copy: `2018 © MY_BLOG_NAME - 
+  copy: `2019 © Qi Lei - 
         <a href="https://vuepress.vuejs.org/" rel="noopener" target="_blank">
           MADE WITH VUEPRESS
         </a>`,
   footer: {
     nav1: {
-      title: 'Ktquez Play',
+      title: 'Qi Lei的blog',
       items: [
         {
-          label: 'ABOUT',
+          label: '关于我',
           path: '/about/'
         },
         {
-          label: 'CATEGORIES',
+          label: '类别',
           path: '/categories/'
         },
         {
-          label: 'CONTACT',
+          label: '联系我',
           path: '/contact/'
         }
       ]
     },
     nav2: {
-      title: 'Community',
+      title: '社交群',
       items: [
         {
-          label: 'FB GROUP',
-          link: 'https://www.facebook.com/groups/MY_GROUP'
+          label: 'QQ:411285047'
         }
       ]
     }
   },
   social: [
     {
-      name: 'twitter',
-      link: `https://www.twitter.com/MY_TWITTER_NICKNAME`
-    },
-    {
       name: 'github',
-      link: `https://www.github.com/MY_TWITTER_NICKNAME`
+      link: `https://www.github.com/qileilove`
     }
   ]
 }

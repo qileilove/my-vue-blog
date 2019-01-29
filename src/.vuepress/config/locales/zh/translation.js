@@ -1,0 +1,67 @@
+module.exports = {
+    // Geral
+    back: '返回',
+    home: '首页',
+    author: '作者',
+    authors: '作者们',
+    posts: '文章们',
+    post: '文章',
+    page: '页面',
+    Tags:'标签',
+    category: '分类',
+    categories: '分类们',
+    navigation: '传送门',
+    see_post: '查看文章',
+    see_all_posts: '查看所有的文章',
+    no_search_results: '啥都没有，搜个毛',
+    more_posts: '更多的文章',
+    related_posts: '相关文章',
+    all_posts_author: '所有文章的作者',
+    share: '分享',
+    see_demo: '给你举个栗子',
+    table_content: '文本',
+    ago:'以前',
+    avatar_of: '头像',
+    joined: '加入',
+    article: '文章', 
+    text_comments: '文本注释',
+    tip_contact: '标签标题',
+    title_contact: '联络标题',
+    refresh: 'Actualización',
+    has_loaded: 'se ha cargado',
+    turnon_night_mode: '打开黑夜模式，体验黑夜的魅力',
+    turnoff_night_mode: '关闭黑夜模式，我讨厌它',
+    skip_to_main_content: '跳过主内容',
+    from_now:'从现在开始',
+    // No posts
+    no_more_posts: '很不幸，该作者太懒，还没有意愿去写',
+    no_categories: '没有分类，就是最好的分类',
+    no_author_posts: '没有作者，我就是作者',
+    no_category_posts: '该类别，没有我想写的文章',
+    // Newsletter
+    stay_in: 'Quede por dentro',
+    news_title: '这是一个不起眼的标题',
+    subscribe: '子标题',
+    // 404 page
+    title_404: '很不幸!你浏览的页面已经由于查水表下线了',
+    text_404: '请勿胡乱传阅，否则被查水表请喝茶，大哥不负责',
+    back_to_homepage: '返回首页',
+    // Traduzindo path das rotas
+    path_route_categories: '分类',
+    path_route_posts: '文章',
+    path_route_authors: '作者',
+    path_route_contact: '联系我',
+    path_route_about: '关于我',
+    path_route_privacy: '私人',
+    path_route_search: '搜索',
+    // Aria
+    aria_label_search: '搜点啥，快输',
+    labelledby_cat_card_post: 'Ver todos los mensajes de la categoría',
+    labelledby_post_card_post: 'Ver último post',
+    // Placeholders
+    ph_search: '乱搜',
+    ph_email: '我的邮箱',
+    // service workers
+    new_content: '新文本'
+  }
+  
