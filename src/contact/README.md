@@ -1,22 +1,15 @@
 ---
 view: page
-title: Happy to be here and looking forward to a chat
-description: 
-excerpt: 
-meta:
-  - property: og:image
-    content: /image-social-share.png
-  - name: twitter:image
-    content: /image-social-share.png
+title: 很高兴你能来到我的网站
+description: 很高兴你能来到我的网站
+excerpt: 很高兴你能来到我的网站
 ---
 
-My contact form (Ideal for using a typeform iframe)
 
-<!-- 
-<div class="typeform typeform--fix">
-  <lazy-load tag="iframe" :data="{ src: 'https://MY_TYPEFORM_URL', height: 1000 }" />
-</div> 
-
-See more in https://github.com/ktquez/vuepress-theme-ktquez#lazy-load
--->
-
+<div class="email-link">
+  <strong>Our email:</strong>
+  <br />
+  <a href="mailto:qileilove@gmail.com" title="email qileilove@gmail.com">
+qileilove@gmail.com
+  </a>
+</div>

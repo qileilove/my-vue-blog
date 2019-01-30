@@ -16,7 +16,7 @@ module.exports = {
     ext: 'png',
     breakpoints: [320, 427, 524, 680] // Breakpoints used for picture media tag
   },
-  disqus: 'ktquez',
+  disqus: 'qaseven-cn',
   url: `https://MY_DOMAIN.COM`,
   cdn: '',
   blackWhite: true,
