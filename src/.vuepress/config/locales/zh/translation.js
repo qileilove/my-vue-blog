@@ -53,6 +53,7 @@ module.exports = {
     path_route_about: '',
     path_route_privacy: '',
     path_route_search: '',
+    path_route_authors:'',
     // Aria
     aria_label_search: '搜点啥，快输',
     labelledby_cat_card_post: 'Ver todos los mensajes de la categoría',
