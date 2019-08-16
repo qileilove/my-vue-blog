@@ -13,3 +13,8 @@ excerpt: 很高兴你能来到我的网站
 qileilove@gmail.com
   </a>
 </div>
+<div class="wechat">
+  <strong>我的微信:</strong>
+  <div>15619208923</div>
+  <div>欢迎挖我跳槽，钱给够就行</div>
+</div>
